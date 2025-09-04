@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Refresh" content="0; url=你的QQ_Scheme_跳转链接">
+    <title>正在跳转到QQ...</title>
+    <script>
+        // 优先使用 JavaScript 跳转
+        window.location.href = '你的QQ_Scheme_跳转链接';
+        // 设置一个计时器，如果跳转失败则提示用户
+        setTimeout(function() {
+            if (!document.hidden) {
+                document.body.innerHTML = '<p style="text-align: center; margin-top: 2em;">未能成功跳转。请确保已安装手机QQ，或<a href="你的QQ_Scheme_跳转链接">点击此处</a>手动尝试。</p>';
+            }
+        }, 3000);
+    </script>
+</head>
+<body>
+    <p style="text-align: center; margin-top: 2em;">正在为您跳转，请稍候...</p>
+</body>
+</html>
