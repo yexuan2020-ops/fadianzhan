@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>打开橙光App</title>
+  <script>
+    // 尝试唤起橙光App
+    window.location.href = "oplayer://org.com/wakeapp?gIndex=1507263&_ukid=b77da35a338c43479fe981eb8181bc1a&gName=%E5%A4%A9%E4%B8%8B%E5%AE%89%E5%AE%81&_sdk_=umeng&_linkid_=usr1bk1ejtjg21lc&action=GAMEDETAIL&_bizType_=ushare";
+    // 若未安装 App，2 秒后跳转到下载页
+    setTimeout(() => {
+      window.location.href = "https://www.66rpg.com/";
+    }, 2000);
+  </script>
+</head>
+<body>
+  <p>正在打开橙光 App...</p>
+</body>
+</html>
